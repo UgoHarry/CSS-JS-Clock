@@ -42,8 +42,12 @@ body {
   background:#D4D5D7;
   position: absolute;
   top:50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
 }
 
 .second-hand {
   height: 2px;
+  top: 51%;
+  background-color: #f7b630;
 }
